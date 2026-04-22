@@ -67,7 +67,7 @@ Results are displayed and available for download
 ▶️ Installation & Setup:
 
 1. Clone the Repository
-git clone https://github.com/your-username/document-summarization-system.git
+git clone https://github.com/bhumikayanamala-cpu/Document-summarization-system
 cd document-summarization-system
 
 2. Create Virtual Environment
