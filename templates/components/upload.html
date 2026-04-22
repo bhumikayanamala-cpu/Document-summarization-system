@@ -1,0 +1,39 @@
+<section class="upload-section">
+    <div class="upload-card">
+        <h2>Upload Your Documents</h2>
+        
+        <div class="upload-area" id="upload-area">
+            <div class="upload-icon">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="17 8 12 3 7 8"></polyline>
+                    <line x1="12" y1="3" x2="12" y2="15"></line>
+                </svg>
+            </div>
+            <p class="upload-text">Drag & drop files here or <label for="file-input" class="browse-link">browse</label></p>
+            <p class="upload-hint">Supports PDF files up to 50MB each</p>
+            <input type="file" id="file-input" accept=".pdf" multiple hidden>
+        </div>
+        
+        <div class="selected-files" id="selected-files">
+            <h3>Selected Files <span class="file-count" id="file-count">(0)</span></h3>
+            <ul class="file-list" id="file-list"></ul>
+        </div>
+        
+        <div class="upload-actions">
+            <button type="button" class="btn btn-secondary" id="clear-btn" disabled>
+                Clear All
+            </button>
+            <button type="button" class="btn btn-primary" id="generate-btn" disabled>
+                <span class="btn-text">Generate Summaries</span>
+                <span class="btn-loading" hidden>
+                    <svg class="spinner" width="20" height="20" viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="3" fill="none" opacity="0.25"></circle>
+                        <path d="M12 2a10 10 0 0 1 10 10" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round"></path>
+                    </svg>
+                    Processing...
+                </span>
+            </button>
+        </div>
+    </div>
+</section>

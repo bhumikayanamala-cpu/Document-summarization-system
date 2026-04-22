@@ -1,0 +1,29 @@
+{# 
+    Table Component - Renders extracted PDF tables
+    Variable: table (list of lists)
+#}
+<div class="table-wrapper">
+    <div class="table-scroll">
+        <table class="data-table">
+            {% for row in table %}
+            {% if loop.first %}
+            <thead>
+                <tr>
+                    {% for cell in row %}
+                    <th>{{ cell if cell else '' }}</th>
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+            {% else %}
+                <tr>
+                    {% for cell in row %}
+                    <td>{{ cell if cell else '' }}</td>
+                    {% endfor %}
+                </tr>
+            {% endif %}
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
