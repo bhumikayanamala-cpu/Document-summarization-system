@@ -108,7 +108,7 @@ BART & DistilBART research papers
 pdfplumber documentation
 
 👨‍💻 Authors:
-Rishika Arisetty
-Bhumika Yanamala
-Chetan Ram Nandamuri
+Rishika Arisetty,
+Bhumika Yanamala,
+Chetan Ram Nandamuri,
 Sai Venkata Sandeep Garlapati
