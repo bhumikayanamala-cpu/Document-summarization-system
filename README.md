@@ -83,18 +83,18 @@ python app.py
 7. Open in Browser
 http://localhost:5001
 
-📊 Model Details
+📊 Model Details:
 Model: DistilBART-CNN-12-6
 Type: Abstractive summarization
 Max input: ~1024 tokens (handled via chunking)
 Output length: 40–120 tokens per chunk
 
-📈 Performance
+📈 Performance:
 Generates fluent and coherent summaries
 Handles large documents efficiently
 Works well on academic, technical, and business PDFs
 
-🔮 Future Enhancements
+🔮 Future Enhancements:
 OCR support for scanned PDFs
 Multilingual summarization
 Domain-specific fine-tuned models
@@ -102,7 +102,7 @@ User authentication & history
 Real-time streaming summaries
 Support for DOCX, TXT, HTML files
 
-📚 References
+📚 References:
 Hugging Face Transformers
 BART & DistilBART research papers
 pdfplumber documentation
